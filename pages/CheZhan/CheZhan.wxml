@@ -1,0 +1,14 @@
+<!--CheZhan.wxml-->
+<view class="title">乘车位置查询</view>
+<view class="textView">北安跨线嘉定出发</view>
+<view class="button"><button type="primary" bindtap="setLinkCaoangongluLvyuanlu" plain="true"><view class="bottonText">曹安公路绿苑路站</view></button></view>
+<view class="textView">北安跨线本部出发</view>
+<view class="button"><button type="primary" bindtap="setLinkGuokangluSipinglu" plain="true"><view class="bottonText">国康路四平路站</view></button></view>
+<view class="textView">短驳车嘉定出发</view>
+<view class="button"><button type="primary" bindtap="setLinkJiasanlu" plain="true"><view class="bottonText">嘉三路（7号楼）</view></button></view>
+<view class="textView">短驳车上海汽车城出发</view>
+<view class="button"><button type="primary" bindtap="setLinkShanghaiqichecheng" plain="true"><view class="bottonText">上海汽车城地铁站</view></button></view>
+<view class="textView">校车（定班车）嘉定出发</view>
+<view class="button"><button type="primary" bindtap="setLinkGuanglounance" plain="true"><view class="bottonText">广楼（G楼）南侧</view></button></view>
+<view class="textView">校车（定班车）本部出发</view>
+<view class="button"><button type="primary" bindtap="setLinkChifenglutingchechang" plain="true"><view class="bottonText">近赤峰路停车场</view></button></view>

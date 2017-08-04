@@ -1,0 +1,45 @@
+{
+  "pages": [
+    
+    "pages/JiaDingChuXing/JiaDingChuXing",
+    "pages/JiaDingChuXing_Summer/JiaDingChuXing_Summer",
+    "pages/BaoAnChe/BaoAnChe",
+    "pages/CheZhan/CheZhan",
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/About/About"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTitleText": "嘉定出行通",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#123456"
+  },
+  "tabBar": {
+    "backgroundColor": "#ffffff",
+    "color": "#000000",
+    "position": "bottom",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/JiaDingChuXing/JiaDingChuXing",
+        "text": "出行",
+        "iconPath": "/resource/ChuXing.png",
+        "selectedIconPath": "/resource/ChuXingSelected.png"
+      },
+      {
+        "pagePath": "pages/CheZhan/CheZhan",
+        "text": "车站",
+        "iconPath": "/resource/DiTu.png",
+        "selectedIconPath": "/resource/DiTuSelected.png"
+      },
+      {
+        "pagePath": "pages/About/About",
+        "text": "帮助",
+        "iconPath": "/resource/About.png",
+        "selectedIconPath": "/resource/AboutSelected.png"
+      }
+    ]
+  }
+}

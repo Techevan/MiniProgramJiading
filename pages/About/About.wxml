@@ -1,0 +1,7 @@
+<!--pages/about/about.wxml-->
+
+<view class="title">更多功能即将加入</view>
+<view class="pickerView">如需帮助或有更多建议</view>
+<view class="pickerView">欢迎发送邮件至987608116@qq.com</view>
+<view class="pickerView">欢迎点击页面右上角分享小程序或添加到桌面</view>
+<view class="updateInfo">2017年8月3日更新</view>

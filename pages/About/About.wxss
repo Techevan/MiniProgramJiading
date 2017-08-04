@@ -1,0 +1,29 @@
+/* pages/about/about.wxss */
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: green;
+  font-family: "微软雅黑";
+  font-size: 30px;
+  line-height: 200%;
+  text-align: center;
+  font-weight:bold;
+}
+.pickerView{
+  color: green;
+  font-size: 15px;
+  font-family: "微软雅黑";
+  text-align: center;
+  font-weight: lighter;
+  line-height: 220%;
+}
+.updateInfo{
+  color: black;
+  font-size: 13px;
+  font-family: "微软雅黑";
+  text-align: center;
+  font-weight: normal;
+  bottom: 20px;
+  line-height: 220%;
+}

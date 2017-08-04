@@ -1,0 +1,32 @@
+<!--about.wxml-->
+<view class="title">暑期出行查询</view>
+
+<view class="pickerView">
+  <view class="introduction_small">Step1:点击下行选择出发日期</view>
+  <picker mode="date" value="{{date}}" start="2017-08-05" end="2017-09-17" bindchange="bindDateChange">
+    <view class="picker">
+      出发日期: {{date}}
+    </view>
+  </picker>
+  <view class="introduction_small">Step2:滑动选择时间查询</view>
+   <view class="introduction">注：日期改选后需前后滑动激活查询</view>
+  <picker-view indicator-style="height: 50px;" style="width: 100%; height: 200px;" value="{{value}}" bindchange="bindChange">
+    <picker-view-column>
+      <view wx:for="{{departure}}" style="line-height: 50px">{{item}}</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{hours}}" style="line-height: 50px">{{item}}时</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{minutes}}" style="line-height: 50px">{{item}}分</view>
+    </picker-view-column>
+  </picker-view> 
+
+
+  <view class="introduction_normal">{{stringReturnMetro}}</view>
+  <view class="introduction_normal">{{stringReturnBAK}}</view>
+  <view class="runtime">{{stringRuntimeBAK}}</view>
+
+  
+
+</view>

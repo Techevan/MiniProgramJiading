@@ -1,0 +1,61 @@
+/* about.wxss */
+.title {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: red;
+  font-family: "微软雅黑";
+  font-size: 30px;
+  line-height: 300%;
+  text-align: center;
+  font-weight:bold;
+}
+.pickerView{
+  color: red;
+  font-size: 15px;
+  font-family: "微软雅黑";
+  text-align: center;
+  font-weight: lighter;
+  line-height: 220%;
+}
+
+.BaoAnCheButton{
+  position:absolute;
+  bottom:10px;
+  width: 100%;
+  font-family: "微软雅黑";
+}
+
+.introduction_normal{
+  color: black;
+  font-size: 15px;
+  font-family: "微软雅黑";
+  font-weight: lighter;
+  line-height: 220%;
+  text-align: middle;
+}
+.introduction{
+  color: black;
+  font-size: 13px;
+  font-family: "微软雅黑";
+  font-weight: lighter;
+  line-height: 220%;
+  text-align: middle;
+}
+
+.introduction_small{
+  color: black;
+  font-size: 13px;
+  font-family: "微软雅黑";
+  font-weight: normal;
+  line-height: 150%;
+  text-align: middle;
+}
+
+.runtime{
+  color: gray;
+  font-size: 12px;
+  font-family: "微软雅黑";
+  font-weight: lighter;
+  line-height: 100%;
+}

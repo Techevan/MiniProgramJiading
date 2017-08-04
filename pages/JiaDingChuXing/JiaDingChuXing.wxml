@@ -1,0 +1,36 @@
+<!--about.wxml-->
+<view class="title">嘉定出行通</view>
+
+<view class="pickerView">
+  <view class="introduction">选择出发时刻查询短驳车、北安跨时刻</view>
+  <view class="introduction">8月5日~9月17日请使用暑期出行</view>
+  <picker-view indicator-style="height: 50px;" style="width: 100%; height: 250px;" value="{{value}}" bindchange="bindChange">
+     <picker-view-column>
+      <view wx:for="{{departure}}" style="line-height: 50px">{{item}}</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{hours}}" style="line-height: 50px">{{item}}时</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{minutes}}" style="line-height: 50px">{{item}}分</view>
+    </picker-view-column>
+    <picker-view-column>
+      <view wx:for="{{weeks}}" style="line-height: 50px">{{item}}</view>
+    </picker-view-column>
+  </picker-view>
+
+  <view class="introduction">{{stringReturnMetro}}</view>
+  <view class="introduction">{{stringReturnBAK}}</view>
+  <view class="runtime">{{stringRuntimeBAK}}</view>
+
+  
+
+</view>
+
+<view class="SummerButton">
+<button size="default" type="warn" plain="true" bindtap="setLinkSummer">暑期出行</button>
+</view>
+
+<view class="BaoAnCheButton">
+<button size="default" type="primary" plain="true" bindtap="setLinkBaoAnChe">联系保安车</button>
+</view>

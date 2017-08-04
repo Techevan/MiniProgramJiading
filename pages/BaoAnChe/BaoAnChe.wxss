@@ -1,0 +1,22 @@
+/* Jiading.wxss */
+.botton{
+  font-size: 20px;
+  font-family: "微软雅黑";
+  line-height: 220%;
+  align-items: center;
+}
+.contactInfo{
+  color: green;
+  font-size: 18px;
+  font-family: "微软雅黑";
+  text-align: center;
+  font-weight: lighter;
+}
+.title{
+  color: green;
+  font-family: "微软雅黑";
+  font-size: 30px;
+  line-height: 200%;
+  text-align: center;
+  font-weight:bold;
+}
